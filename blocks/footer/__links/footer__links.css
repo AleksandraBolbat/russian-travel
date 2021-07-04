@@ -1,0 +1,15 @@
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    opacity: 100%;
+}
+.footer__links:hover{
+    opacity: 80%;
+    transition: opacity 1s linear infinite;
+}
+@media screen and (min-width: 425px) {
+    .footer__link {
+        max-width: 340px;
+    }
+  }

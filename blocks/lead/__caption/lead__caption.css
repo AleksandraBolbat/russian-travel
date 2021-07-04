@@ -1,0 +1,37 @@
+.lead__caption {
+  width: 100%;
+  margin: 0 auto;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2.5px;
+  text-align: left;
+}
+@media screen and (min-width: 1025px) {
+  .lead__caption {
+    max-width: 985px;
+    margin-left: 148px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .lead__caption {
+    max-width: 930px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .lead__caption {
+    max-width: 725px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    max-width: 300px;
+    margin-left: 16px;
+  }
+}

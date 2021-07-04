@@ -1,0 +1,9 @@
+.place__link{
+      color: white;
+      margin-top: 12px;
+      opacity: 100%;
+  }
+  .place__link:hover{
+      opacity: 80%;
+      transition: opacity 1s linear infinite;
+  }
