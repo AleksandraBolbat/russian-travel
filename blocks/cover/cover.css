@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-image: url(../__cover/cover-trains.jpg);
+    background-image: url(../cover/cover-trains.jpg);
     background-position: center;
     background-size: cover;
     min-height: 740px;

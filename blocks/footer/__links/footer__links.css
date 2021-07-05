@@ -1,7 +1,7 @@
 .footer__links{
     display: flex;
-    justify-content: space-between;
     align-self: flex-start;
+    justify-content: space-between;
     opacity: 100%;
 }
 .footer__links:hover{
@@ -10,6 +10,6 @@
 }
 @media screen and (min-width: 425px) {
     .footer__link {
-        max-width: 340px;
+        max-width: 322px;
     }
   }
