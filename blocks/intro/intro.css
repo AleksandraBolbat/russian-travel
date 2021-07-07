@@ -1,37 +1,41 @@
 .intro{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 1025px) {
-    .intro {
-      margin-bottom: 92px;
-      max-width: 690px;
-      max-height: 425px;
+  .intro {
+    margin-bottom: 92px;
+    max-width: 690px;
+    margin-left: 148px;
     }
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1025px) {
-    .intro__title {
-      margin-bottom: 92px;
-      max-width: 690px;
-      max-height: 425px;
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .intro {
+    margin-bottom: 92px;
+    max-width: 690px;
+    margin-left: 48px;
     }
   }
   
-  @media screen and (min-width: 425px) and (max-width: 768px) {
-    .intro {
-      max-width: 720px;
-      max-height: 429px;
-      margin-bottom: 88px;
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-bottom: 88px;
+    margin-right: auto;
+    margin-left: auto;
     }
   }
   
-  @media screen and (max-width: 425px) {
-    .intro {
-      max-width: 288px;
-      max-height: 754px;
-      margin-bottom: 64px;
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: 288px;
+    margin-bottom: 64px;
+    margin-right: auto;
+    margin-left: auto;
     }
   }

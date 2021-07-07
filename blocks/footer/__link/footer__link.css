@@ -2,22 +2,21 @@
     font-weight: 400;
     font-style: normal;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 665px) {
     .footer__link {
-        font-size: 16px;
-        line-height: 18px;
-        margin-right: 18px;
-        max-width: 50px;
+      margin-right: 18px;
+      font-size: 16px;
+      line-height: 18px;
     }
     .footer__link:last-child{
       margin-right: 0;
     }
   }
-  
-  @media screen and (max-width: 425px) {
+@media screen and (min-width: 665px) {
     .footer__link {
         max-width: 74px;
-        max-height: 24px;
         text-align: start;
+        font-size: 16px;
+        line-height: 18px;
   }
 }
