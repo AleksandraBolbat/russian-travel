@@ -3,7 +3,6 @@
     margin: 0;
     font-weight: 900;
     font-style: normal;
-    z-index: 3;
 }
 @media screen and (min-width: 1025px){
     .cover__title {

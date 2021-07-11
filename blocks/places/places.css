@@ -4,12 +4,14 @@
 @media screen and (min-width: 1025px) {
     .places {
      max-width: 984px;
+     margin: auto;
          }
        }
        
 @media screen and (min-width: 768px) and (max-width: 1025px) {
     .places {
         max-width: 928px;
+        margin: auto;
        }
    }
        

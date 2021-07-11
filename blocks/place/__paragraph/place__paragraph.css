@@ -2,13 +2,15 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0em;
+    margin: 0;
 }
 @media screen and (min-width: 1025px) {
     .place__paragraph {
       max-width: 484px;
-      margin-top: 48px;
       font-size: 18px;
       line-height: 29.34px;
+      margin-top: 0;
+      margin-bottom: 26px;
     }
   }
   

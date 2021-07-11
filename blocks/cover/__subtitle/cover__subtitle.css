@@ -4,7 +4,8 @@
     margin-left: auto;
     font-weight: 400;
     font-style: normal;
-    z-index: 3;
+    z-index: 4;
+    margin-bottom: 0;
 }
 
   @media screen and (min-width: 425px){

@@ -1,13 +1,13 @@
 .photo-grid__item{
     object-fit: cover;
     width: 100%;
+    margin: auto;
 }
 
 @media screen and (min-width: 1025px) {
     .photo-grid__item{
       max-width: 284px;
       max-height: 213px;
-      margin: auto;
     }
   }
   
@@ -15,7 +15,6 @@
     .photo-grid__item{
       max-width: 300px;
       max-height: 225px;
-      margin: auto;
     }
   }
   
@@ -23,7 +22,6 @@
     .photo-grid__item{
       max-width: 352px;
       max-height: 2844px;
-      margin: auto;
   }
 }
   
@@ -31,6 +29,5 @@
     .photo-grid__item{
       max-width: 288px;
       max-height: 216px;
-      margin: auto;
     }
   }

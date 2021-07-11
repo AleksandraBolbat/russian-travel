@@ -4,10 +4,6 @@
     justify-content: space-between;
     opacity: 100%;
 }
-.footer__links:hover{
-    opacity: 80%;
-    transition: opacity 1s linear infinite;
-}
 @media screen and (max-width: 665px) {
     .footer__links{
         flex-direction: column;

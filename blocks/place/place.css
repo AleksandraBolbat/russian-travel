@@ -1,5 +1,6 @@
 .place{
     display: grid;
+    align-items: end;
     grid-template-rows: auto;
     list-style: none;
     margin: auto;

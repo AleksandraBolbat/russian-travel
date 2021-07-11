@@ -1,5 +1,6 @@
 .footer{
   display: flex;
+  padding-bottom: 24px;
 }
 @media screen and (min-width: 1025px) {
   .footer {

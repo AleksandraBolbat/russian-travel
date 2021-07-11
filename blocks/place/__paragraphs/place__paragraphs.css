@@ -1,6 +1,6 @@
 .place__paragraphs{
     text-align: left;
-    margin: auto;
+    margin: 0;
 }
 @media screen and (min-width: 1025px) {
  .place__paragraphs {

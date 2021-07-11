@@ -4,22 +4,19 @@
     list-style: none;
     text-decoration: none;
     color: white;
+    opacity: 100%;
 }
 @media screen and (min-width: 665px) {
     .footer__link {
       margin-right: 18px;
       font-size: 16px;
-      line-height: 18px;
+      text-align: start;
     }
     .footer__link:last-child{
       margin-right: 0;
     }
   }
-@media screen and (min-width: 665px) {
-    .footer__link {
-        max-width: 74px;
-        text-align: start;
-        font-size: 16px;
-        line-height: 18px;
-  }
+  .footer__link:hover{
+    opacity: 80%;
+    transition: opacity 1s linear infinite;
 }

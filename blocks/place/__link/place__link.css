@@ -1,6 +1,6 @@
 .place__link{
       color: white;
-      margin-top: 12px;
+      margin: 0;
       opacity: 100%;
   }
   .place__link:hover{
