@@ -20,7 +20,7 @@
     }
   }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 665px) and (max-width: 768px) {
   .footer {
     flex-direction: row;
     margin-top: 88px;
@@ -29,10 +29,10 @@
     }
   }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 665px) {
   .footer {
     flex-direction: column;
-    margin-top: 64px;
     max-width: 186px;
+    margin: 64px 18px;
   }
 }

@@ -5,15 +5,15 @@
     text-decoration: none;
     color: white;
     opacity: 100%;
+    font-size: 16px;
 }
-@media screen and (min-width: 665px) {
+@media screen and (max-width: 665px) {
     .footer__link {
-      margin-right: 18px;
-      font-size: 16px;
-      text-align: start;
+      font-size: 24px;
+      margin-bottom: 32px;
     }
     .footer__link:last-child{
-      margin-right: 0;
+      margin-bottom: 0;
     }
   }
   .footer__link:hover{
