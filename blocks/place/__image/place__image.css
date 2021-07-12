@@ -1,6 +1,7 @@
 .place__image{
     width: 100%;
     object-fit: cover;
+    align-self: start;
   }
   @media screen and (min-width: 1025px) {
     .place__image {
@@ -13,25 +14,22 @@
   @media screen and (min-width: 768px) and (max-width: 1025px) {
     .place__image{
       max-width: 440px;
-      margin-top: 48px;
       max-height: 440px;
       grid-row: 2/2;
     }
   }
   
-  @media screen and (min-width: 425px) and (max-width: 768px) {
+  @media screen and (min-width: 665px) and (max-width: 768px) {
     .place__image{
       max-width: 340px;
-      margin-top: 48px;
       max-height: 340px;
       grid-row: 2/2;
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 665px) {
     .place__image{
-      width:100%;
-      margin-top: 32px;
-      max-height: 320px;
+      max-width: 320px;
+      grid-row: 3/4;
     }
   }

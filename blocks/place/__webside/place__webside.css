@@ -5,6 +5,11 @@
     line-height: 22px;
     letter-spacing: 0em;
     margin: 0;
+    text-align: end;
   }
 
-       
+  @media screen and (max-width: 425px) {
+    .place__website{
+      grid-row: 2/4;
+    }
+  }

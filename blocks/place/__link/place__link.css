@@ -2,8 +2,20 @@
       color: white;
       margin: 0;
       opacity: 100%;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 22px;
+      align-self: end;
   }
   .place__link:hover{
       opacity: 80%;
       transition: opacity 1s linear infinite;
+  }
+
+  @media screen and (max-width:425px) {
+    .place__link{
+      max-width: 288px;
+      margin-left: 16px;
+    }
   }

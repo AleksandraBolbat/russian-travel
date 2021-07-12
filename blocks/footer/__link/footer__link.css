@@ -6,6 +6,7 @@
     color: white;
     opacity: 100%;
     font-size: 16px;
+    margin-right: 18px;
 }
 @media screen and (max-width: 665px) {
     .footer__link {
