@@ -37,8 +37,8 @@
       }
       
   @media screen and (max-width: 665px) { 
-    .place { 
-      margin-top: 64px; 
+    .place {
+      margin-top: 64px;
       row-gap: 32px;
         } 
       }
