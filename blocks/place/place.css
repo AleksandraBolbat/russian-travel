@@ -20,25 +20,26 @@
    .place {
     grid-template-columns: repeat(2, 1fr);
     max-width: 928px;
-    margin-top: 92px;
+    margin-top: 80px;
     column-gap: 40px;
     row-gap: 50px;
         }
       }
       
-  @media screen and (min-width: 665px) and (max-width: 768px) {
+  @media screen and (min-width: 425px) and (max-width: 768px) {
     .place{
       grid-template-columns: repeat(2, 1fr);
       max-width: 720px;
-      margin-top: 88px;
+      margin-top: 73px;
       column-gap: 40px;
       row-gap: 50px;
+      margin: 73px auto;
         }
       }
       
-  @media screen and (max-width: 665px) { 
+  @media screen and (max-width: 425px) { 
     .place {
-      margin-top: 64px;
       row-gap: 32px;
+      margin: 50px auto;
         } 
       }

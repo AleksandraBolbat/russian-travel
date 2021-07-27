@@ -2,38 +2,34 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    margin: 0;
 }
 
   @media screen and (min-width: 1025px){
     .header {
       max-width: 1184px;
       padding-top: 28px;
-      margin: auto;
     }
   }
   
-  @media screen and (min-width: 768px) and (max-width: 1025px){
+  @media screen and (max-width: 1025px){
     .header {
       max-width: 928px;
       padding-top: 28px;
-      margin: auto;
     }
   }
-  @media screen and (min-width: 425px) and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .header {
       max-width: 720px;
       padding-top: 28px;
-      margin: auto;
     }
   }
   
   @media screen and (max-width: 425px) {
     .header {
       padding-top: 16px;
-      margin: auto;
   }
 }

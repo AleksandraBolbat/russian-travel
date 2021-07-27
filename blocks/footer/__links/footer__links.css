@@ -1,7 +1,6 @@
 .footer__links{
     display: flex;
     align-self: flex-start;
-    opacity: 100%;
 }
 @media screen and (max-width: 665px) {
     .footer__links{

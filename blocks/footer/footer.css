@@ -33,6 +33,6 @@
   .footer {
     flex-direction: column;
     max-width: 186px;
-    margin: 64px 18px;
+    margin: 64px 16px 0;
   }
 }
