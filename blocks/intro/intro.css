@@ -3,13 +3,12 @@
   flex-direction: column;
   text-align: start;
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 
 @media  screen and (min-width:1024px) {
   .intro{
     max-width: 984px;
-    margin: auto;
   }
   
 }
@@ -25,8 +24,6 @@
   .intro {
     max-width: 720px;
     margin-bottom: 88px;
-    margin-right: auto;
-    margin-left: auto;
     }
   }
   
@@ -34,7 +31,5 @@
   .intro {
     max-width: 288px;
     margin-bottom: 64px;
-    margin-right: auto;
-    margin-left: auto;
     }
   }

@@ -1,18 +1,28 @@
 .place__paragraphs{
     text-align: left;
-    margin: 0;
     padding: 0;
     align-self: start;
 }
- @media screen and (min-width: 425px)  {
+ @media screen and (min-width: 665px) {
      .place__paragraphs{
         grid-column: 2/3;
         grid-row: 2/3;
+        margin-left: 0;
      }
  }
+
+ @media screen and (min-width: 425px) and (max-width:665px) {
+    .place__paragraphs{
+        margin: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
  @media screen and (max-width: 425px) {
      .place__paragraphs{
          margin-left: 16px;
          max-width: 288px;
+         margin: auto;
      }
  }

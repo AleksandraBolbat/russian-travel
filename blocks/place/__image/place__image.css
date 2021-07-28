@@ -2,12 +2,12 @@
     width: 100%;
     object-fit: cover;
     align-self: start;
+    grid-row: 2/2;
   }
   @media screen and (min-width: 1025px) {
     .place__image {
       max-width: 460px;
       max-height: 460px;
-      grid-row: 2/2;
     }
   }
   
@@ -15,21 +15,18 @@
     .place__image{
       max-width: 440px;
       max-height: 440px;
-      grid-row: 2/2;
     }
   }
   
-  @media screen and (min-width: 425px) and (max-width: 768px) {
+  @media screen and (min-width: 665px) and (max-width: 768px) {
     .place__image{
       max-width: 340px;
       max-height: 340px;
-      grid-row: 2/2;
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 665px) {
     .place__image{
-      max-width: 320px;
       grid-row: 3/4;
     }
   }

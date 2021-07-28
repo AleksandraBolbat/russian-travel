@@ -5,31 +5,32 @@
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
+    padding-top: 28px;
 }
 
   @media screen and (min-width: 1025px){
     .header {
       max-width: 1184px;
-      padding-top: 28px;
     }
   }
   
   @media screen and (max-width: 1025px){
     .header {
       max-width: 928px;
-      padding-top: 28px;
     }
   }
   @media screen and (max-width: 768px) {
     .header {
       max-width: 720px;
-      padding-top: 28px;
+      margin-left: 24px;
+      margin-right: 24px;
     }
   }
   
   @media screen and (max-width: 425px) {
     .header {
       padding-top: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
   }
 }

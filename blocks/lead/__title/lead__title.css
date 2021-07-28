@@ -5,20 +5,8 @@
   letter-spacing: 0em;
   font-weight: 900;
   font-style: normal;
-}
-
-@media screen and (min-width: 768px) {
-  .lead__title {
-    font-size: 96px;
-    line-height: 100px;
-  }
-}
-
-@media screen and (min-width: 665px) and (max-width: 767px) {
-  .lead__title {
-    font-size: 66px;
-    line-height: 100px;
-  }
+  font-size: 96px;
+  line-height: 100px;
 }
 
 @media screen and (max-width: 664px) {
