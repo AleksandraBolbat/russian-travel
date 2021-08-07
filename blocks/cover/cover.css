@@ -8,11 +8,11 @@
   z-index: 1;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 92px;
 }
 @media screen and (min-width: 1025px){
   .cover {
     max-width: 1184px;
-    margin-top: 92px;
     min-height: 740px;
     }
   }

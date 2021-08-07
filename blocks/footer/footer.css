@@ -7,20 +7,20 @@
 @media screen and (min-width: 1025px) {
   .footer {
     margin: 92px auto 0;
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     }
   }
   
 @media screen and (min-width: 768px) and (max-width: 1025px) {
   .footer {
-    max-width: 928px;
+    max-width: calc(100% - 96px);
     margin: 92px auto 0;
     }
   }
 
 @media screen and (min-width: 665px) and (max-width: 768px) {
   .footer {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
     margin: 88px auto 0;
     }
   }
